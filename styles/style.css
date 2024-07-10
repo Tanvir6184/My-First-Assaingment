@@ -15,7 +15,6 @@ nav{
 }
 .nav-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
     line-height: 10px;
@@ -40,7 +39,6 @@ nav{
 /* header-style-section */
 
 .full-resume{
-    /* border: 2px solid blue; */
     width: 1100px;
     display: flex;
     flex-direction: column;
@@ -137,7 +135,6 @@ nav{
 }
 .web-dev-header h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
@@ -146,7 +143,6 @@ nav{
 }
 .web-dev-header p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -176,7 +172,6 @@ nav{
 }
 .display-content-one h3{
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 700;
     line-height: 36px;
@@ -185,7 +180,6 @@ nav{
 }
 .display-content-one p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -256,16 +250,13 @@ nav{
 /* inspiration-body-styles */
 .main-container{
     width:950px;
-   
     display: flex;
-    /* border: 2px solid darkblue; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
     
 }
 .inspiration-container{
-    /* border: 2px solid yellow; */
     width: 852px;
     height: 115px;
     display: flex;
@@ -277,7 +268,6 @@ nav{
 }
 .inspiration-container h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
     line-height: 37px 15px;
@@ -287,7 +277,6 @@ nav{
 }
 .inspiration-container p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0%;
@@ -302,13 +291,11 @@ nav{
 
 .current-target{
     width: 1015px;
-    /* border: 2px solid saddlebrown; */
     margin: 0 auto;
     text-align: center;
 }
 .current-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     line-height: 37px;
@@ -321,13 +308,11 @@ nav{
 
 .target-main{
     display: flex;
-    /* border: 2px solid chartreuse; */
     margin-top: 80px;
     width: 1100px ; 
 }
 .html-title , .css-title , .js-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -336,7 +321,6 @@ nav{
 }
 .html-text, .css-text, .js{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 13px;
     font-weight: 400;
     line-height: 15px;
@@ -356,6 +340,7 @@ nav{
     width: 100%;
     height: 500px;
     border-radius: 15px;
+    margin-top: 35px;
 }
 .content {
     background-color: rgba(0, 0, 0, 0.5);
@@ -403,6 +388,7 @@ button[type="submit"] {
     /* justify-content: space-between; */
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 .sub-main-footer{
     display: flex;
