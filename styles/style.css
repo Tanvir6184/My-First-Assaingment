@@ -1,5 +1,7 @@
-.azeret-mono-normal{
-  font-family: "Azeret Mono";
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
@@ -38,7 +40,7 @@ nav{
 /* header-style-section */
 
 .full-resume{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 1100px;
     display: flex;
     flex-direction: column;
@@ -256,14 +258,14 @@ nav{
     width:950px;
    
     display: flex;
-    border: 2px solid darkblue;
+    /* border: 2px solid darkblue; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
     
 }
 .inspiration-container{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 852px;
     height: 115px;
     display: flex;
@@ -300,7 +302,7 @@ nav{
 
 .current-target{
     width: 1015px;
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     margin: 0 auto;
     text-align: center;
 }
@@ -319,7 +321,7 @@ nav{
 
 .target-main{
     display: flex;
-    border: 2px solid chartreuse;
+    /* border: 2px solid chartreuse; */
     margin-top: 80px;
     width: 1100px ; 
 }
@@ -352,7 +354,8 @@ nav{
     text-align: center;
     color: white;
     width: 100%;
-    height: 300px;
+    height: 500px;
+    border-radius: 15px;
 }
 .content {
     background-color: rgba(0, 0, 0, 0.5);
@@ -376,7 +379,7 @@ p {
     text-align: center;
 }
 input[type="text"] {
-    width: 300px; /
+    width: 300px; 
     padding: 10px;
     border: none;
     border-radius: 5px 0 0 5px;
@@ -394,10 +397,10 @@ button[type="submit"] {
   }
   
 /* footer-section */
-.main-footer{
+#main-footer{
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
     flex-direction: column;
 }
