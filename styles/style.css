@@ -1,0 +1,139 @@
+.azeret-mono-normal{
+  font-family: "Azeret Mono";
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+}
+
+/* Nav-bar-styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.nav-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 10px;
+    letter-spacing: 0%;
+}    
+
+.nav-top-right-title{
+    width: 180px;
+    height: 40px;
+    top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 14px 17px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* header-style-section */
+
+.container{
+    height: 552px;
+    width: 100%;
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container{
+    height: 482px;
+    width: 898px;
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    flex-direction: column;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.text-display{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-display h1{
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.text-display p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    
+      
+}
+.btn-text{
+    height: 50px;
+    width: 155px;
+    padding: 10px 20px;
+    background-color: #0D1321;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* why-web-development-styles */
+.web-dev-container{
+    height: auto 1315px;
+    width: 1043px;
+    border: 2px solid red;
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    justify-content: center;
+}
+.sub-web-dev{
+    height: 1235px;
+    width: 946px;
+    border: 2px solid green;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.web-dev-header{
+    height: 115px;
+    width: 852px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    border: 2px solid blue;
+}
+/* why-web-development main theme styles */
+.display-content{
+    height: 336px;
+    width: 946px;
+    border: 2px solid green;
+}
+.display-content-one{
+    height: 220px;
+    width: 477px;
+    border: 2px solid darkcyan;
+}
+.text-content{
+
+}
+.image-content{
+
+}
