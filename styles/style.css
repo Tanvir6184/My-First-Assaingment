@@ -40,7 +40,6 @@ nav{
 .full-resume{
     border: 2px solid blue;
     width: 1100px;
-    height: 5250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +114,6 @@ nav{
     background-color: #FEFEFE;
 }
 .sub-web-dev{
-    height: 1235px;
     width: 946px;
     display: flex;
     flex-direction: column;
@@ -256,12 +254,13 @@ nav{
 /* inspiration-body-styles */
 .main-container{
     width:950px;
-    height: 790px;
+   
     display: flex;
     border: 2px solid darkblue;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 .inspiration-container{
     border: 2px solid yellow;
@@ -271,6 +270,8 @@ nav{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 20px 10px;
+     margin: 25px 0px 25px 0px;
 }
 .inspiration-container h3{
     color: rgb(13, 19, 33);
@@ -290,13 +291,7 @@ nav{
     letter-spacing: 0%;
     text-align: center;
 }
-.inspiration-sub-container{
-    width: 852px;
-    height: 650px;
-    border: 2px solid gold;
-    border-radius: 16px;
-    margin-top: 10px;
-}
+
 .iframe-use{
     border-radius: 16px;
     margin-top: 10px;
@@ -305,9 +300,8 @@ nav{
 
 .current-target{
     width: 1015px;
-    height: 150px;
     border: 2px solid saddlebrown;
-    margin-top: 100px;
+    margin: 0 auto;
     text-align: center;
 }
 .current-title{
@@ -325,14 +319,91 @@ nav{
 
 .target-main{
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
     border: 2px solid chartreuse;
     margin-top: 80px;
-    width: 1200px;
-    margin-left: 0;
+    width: 1100px ; 
 }
-.target .html-title{
-    font-size: smaller;
+.html-title , .css-title , .js-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    
+}
+.html-text, .css-text, .js{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* hand-shake-styles */
+
+.image-bg{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.btn-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+input[type="text"] {
+    width: 300px; /
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: wheat;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: inline;
+  }
+  
+/* footer-section */
+.main-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub-main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
 }
